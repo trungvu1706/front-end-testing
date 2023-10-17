@@ -16,10 +16,11 @@ export const Circle: React.FC<CircleProps> = ({ colour, pct }) => {
       cy={100}
       fill="transparent"
       stroke={strokePct !== circ ? colour : ''}
-      strokeWidth={'10px'}
+      strokeWidth={'4px'}
       strokeDasharray={circ}
       strokeDashoffset={pct ? strokePct : 0}
       strokeLinecap="round"
+      filter="drop-shadow(0px 0px 6px #FC7400)"
     ></circle>
   )
 }

@@ -1,2 +1,5 @@
 export * from './ProgressCircle'
 export * from './Chart'
+export * from './MedalOfMeal'
+export * from './ButtonScroll'
+export * from './RecordCard'

@@ -5,6 +5,7 @@ export default {
     extend: {},
     colors: {
       orange: {
+        300: '#FFCC21',
         400: '#FF963C',
         500: '#EA6C00',
         600: 'linear-gradient(180deg, #FFCC21 0%, #FF963C 100%)',
