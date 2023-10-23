@@ -1,5 +1,4 @@
 import React from 'react'
-import { myBodyImg } from '@/assets/images'
 
 interface RecordCardProps {
   title: string
@@ -11,9 +10,8 @@ export const RecordCard: React.FC<RecordCardProps> = ({
   desc,
   bgImg,
 }) => {
-  console.log(myBodyImg)
   return (
-    <div className="border-[24px] border-orange-300 w-[280px] h-[280px] bg-black-600">
+    <div className="border-[24px] border-orange-300 w-[290px] h-[290px] bg-black-600">
       {/*<div className="bg-black-600">*/}
       {/*  <img src={myBodyImg} alt="my-body" className="w-full h-full" />*/}
       {/*</div>*/}

@@ -16,6 +16,7 @@ export default {
         600: '#2E2E2E',
       },
       white: {
+        400: '#D9D9D9',
         900: '#fff',
       },
     },
